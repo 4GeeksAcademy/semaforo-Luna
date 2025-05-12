@@ -16,7 +16,7 @@ const Home = () => {
 				src="https://tablered.mx.arauco.com/wp-content/uploads/2020/04/Negro.jpg"
 			/>
 			<button
-				className="rounded-circle rojo position-absolute start-50 translate-middle"
+				className="rounded-circle rojo position-absolute start-50 translate-middle p-3"
 				onClick={() => {
 					setColor("brilloRojo")
 					;
@@ -24,12 +24,12 @@ const Home = () => {
 				id={ color=="brilloRojo"?color:""}
 			></button>
 
-			<button className="rounded-circle amarillo position-absolute top-50 start-50 translate-middle" onClick={() => {
+			<button className="rounded-circle amarillo position-absolute top-50 start-50 translate-middle p-3" onClick={() => {
 					setColor("brilloAmarillo")
 					; 
 				}}
 				id={ color=="brilloAmarillo"?color:""}></button>
-			<button className="rounded-circle verde position-absolute start-50 translate-middle"  onClick={() => {
+			<button className="rounded-circle verde position-absolute start-50 translate-middle p-3"  onClick={() => {
 					setColor("brilloVerde")
 					; 
 				}}
